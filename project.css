@@ -1,0 +1,50 @@
+img{
+    display: block;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0px auto;
+  
+  }
+  
+  .randomimagebtn{
+      display: block;
+      margin: 5px auto;
+      background-color: black;
+      color: brown;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 1s;
+      border: none;
+      font-weight: bold;
+  }
+  
+  .randomimagebtn:hover{
+      background-color: brown;
+      color: black;
+  }
+  
+  
+  .like-btn, .dislike-btn {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+    
+  
+    .active {
+      color: red;
+    }
+    
+    /* Style the count */
+    .like-count {
+      font-size: 20px;
+    }
+  
+    .like-dislike-btn{
+      margin-left: 50%;
+    }
